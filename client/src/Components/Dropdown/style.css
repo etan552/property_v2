@@ -1,0 +1,36 @@
+.drop-down {
+  margin-left: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.input-box {
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d7d5d2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.text {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+  pointer-events: none;
+  border: none;
+}
+
+.select-arrow {
+  width: 35px;
+}
+
+.drop-down-wrapper {
+  position: absolute;
+  top: 42px;
+  left: 4px;
+  box-shadow: 0 0 5px 2px rgb(212, 212, 212);
+}
